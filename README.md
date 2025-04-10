@@ -14,7 +14,7 @@ This visualization approach was developed in response to limitations in traditio
 To illustrate the methodology without violating data privacy, this project uses synthetic data representing a fabricated financial fraud scenario. The visualization highlights temporal anomalies—such as mismatched submission and effective dates or illogical document orderings—that would be nearly invisible to automated systems alone.
 
 For a detailed explanation of the architecture and design rationale, refer to:  
-**[Final Paper: Matthew_Ray_Final_visualization_project_760.docx](./Matthew_Ray_Final_visualization_project_760.docx)**
+**[Final Paper: Matthew_Ray_Final_visualization_project_760.docx](./Matthew_Ray_final_report_760.pdf)**
 
 ---
 
