@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Fraud Detection Visualization</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+  <script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Interactive Fraud Detection Visualization</h1>
+
+    <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-bottom: 1rem;">
+      <ul id="sortable" class="scrollable-box"></ul>
+      <div id="checkboxes" class="scrollable-box"></div>
+      
+    </div>
+
+    <div id="colorlegend" style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem;"></div>
+
+    <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+      <select id="employeeDropdown"></select>
+      <select id="colorCategoryDropdown">
+        <option value="">Color by Category</option>
+      </select>
+      <select id="referenceDateDropdown"></select>
+      <button id="resetZoomBtn">Reset Zoom</button>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="chart" height="600"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
